@@ -111,11 +111,21 @@ class banner:
                               ,;;;;:                            
 ''',PURPLE)
 
+    def ban5(self):
+        '''banner 5 '''
+        prettyPrint.prettyPrint('''
+         _   _  _____ _____ 
+         | \ | |/ ____/ ____|
+         |  \| | (___| (___  
+         | . ` |\___ \\___ \ 
+         | |\  |____) |___) |
+         |_| \_|_____/_____/ 
+        ''',RED)
     def main(self):
         '''nss banner '''
         db = DB()
         mongodbNum = db.getPluginNums(self.mongodb)
-        choice([self.ban1,self.ban2,self.ban3,self.ban4])()
+        choice([self.ban1,self.ban2,self.ban3,self.ban4,self.ban5])()
         print '          =[',
         prettyPrint.prettyPrint('NSS::NoSqlSploit ',GREEN)                  
         print '        -+=[',

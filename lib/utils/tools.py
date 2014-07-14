@@ -54,7 +54,7 @@ class tools:
         pp.prettyPrint('        COMMAND         DESCRIPTION',YELLOW)
         pp.prettyPrint('        -------         -----------',GREY,0)
         pp.prettyPrint('''
-        exploit         List the mongodb plugins
+        mongodb         List the mongodb plugins
         all             List all the plugins''',CYAN)
 
     def usage(self,keyword):

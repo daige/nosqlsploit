@@ -133,7 +133,7 @@ class pluginModule:
         pp.prettyPrint('        -------         -----------' ,GREY ,0)
         pp.prettyPrint('''
         help            Displays the plugin menu
-        back            Back to NSS Main
+        exit            Back to NSS Main
         cls             Clear the screen
         info            Displays the plugin info
         show            Displays the plugin options
