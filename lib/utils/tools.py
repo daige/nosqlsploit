@@ -55,6 +55,10 @@ class tools:
         pp.prettyPrint('        -------         -----------',GREY,0)
         pp.prettyPrint('''
         mongodb         List the mongodb plugins
+<<<<<<< HEAD
+=======
+        multi           List the mongodb plugins
+>>>>>>> 6f81fb7bb1cc81ab5062065b198e4e0b4b97e162
         all             List all the plugins''',CYAN)
 
     def usage(self,keyword):
@@ -64,7 +68,7 @@ class tools:
         if  keyword == "search":
             showUsage('search <plugin>')
         elif keyword == "show":
-            showUsage('show <mongodb|all>')
+            showUsage('show <mongodb|multi|all>')
         elif keyword == "use":
             showUsage('use <plugin|pluginID>')
 
